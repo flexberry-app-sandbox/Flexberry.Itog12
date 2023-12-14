@@ -72,19 +72,41 @@
           "lookupValue": null,
           "lookupValueField": null,
           "relationName": "Договор",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Договор.Длительность",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "длительность",
+                  "caption": "Длительность",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "длительность",
+              "relatedTo": "i-i-s-itog12-длительность",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {
               "name": "номер",
               "caption": "Номер договора",
               "hidden": false,
-              "index": 2
+              "index": 3
             }
           ],
-          "index": -1,
+          "index": 2,
           "type": "default",
-          "caption": "Номер договора",
+          "caption": "Договор",
           "name": "договор",
           "relatedTo": "i-i-s-itog12-договор",
           "inverse": null
@@ -105,7 +127,7 @@
                   "name": "затрВремя",
                   "caption": "Затраченное время",
                   "hidden": false,
-                  "index": 4
+                  "index": 7
                 }
               ],
               "index": -1,
@@ -120,14 +142,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование услуг",
+              "caption": "Наименование",
               "hidden": false,
-              "index": 3
+              "index": 6
             }
           ],
-          "index": -1,
+          "index": 5,
           "type": "default",
-          "caption": "Наименование услуг",
+          "caption": "Услуги",
           "name": "услуги",
           "relatedTo": "i-i-s-itog12-услуги",
           "inverse": null

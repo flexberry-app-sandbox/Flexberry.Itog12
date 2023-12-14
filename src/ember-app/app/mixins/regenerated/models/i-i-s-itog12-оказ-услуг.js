@@ -54,14 +54,17 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ОказУслугE', 'i-i-s-itog12-оказ-услуг', {
     дата: attr('Дата', { index: 0 }),
     времяКонсульт: attr('Время консультаций', { index: 1 }),
-    договор: belongsTo('i-i-s-itog12-договор', 'Номер договора', {
-      номер: attr('Номер договора', { index: 2 })
-    }, { index: -1, hidden: true }),
-    услуги: belongsTo('i-i-s-itog12-услуги', 'Наименование услуг', {
-      наименование: attr('Наименование услуг', { index: 3 }),
-      затрВремя: belongsTo('i-i-s-itog12-затр-время', '', {
-        затрВремя: attr('Затраченное время', { index: 4 })
+    договор: belongsTo('i-i-s-itog12-договор', 'Договор', {
+      номер: attr('Номер договора', { index: 3 }),
+      длительность: belongsTo('i-i-s-itog12-длительность', '', {
+        длительность: attr('Длительность', { index: 4 })
       }, { index: -1, hidden: true })
-    }, { index: -1, hidden: true })
+    }, { index: 2 }),
+    услуги: belongsTo('i-i-s-itog12-услуги', 'Услуги', {
+      наименование: attr('Наименование', { index: 6 }),
+      затрВремя: belongsTo('i-i-s-itog12-затр-время', '', {
+        затрВремя: attr('Затраченное время', { index: 7 })
+      }, { index: -1, hidden: true })
+    }, { index: 5 })
   });
 };
