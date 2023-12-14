@@ -63,6 +63,6 @@ export let defineProjections = function (modelClass) {
       затрВремя: belongsTo('i-i-s-itog12-затр-время', '', {
         затрВремя: attr('Затраченное время', { index: 5 })
       }, { index: -1, hidden: true })
-    }, { index: 4, displayMemberPath: 'услуги' })
+    }, { index: 4, displayMemberPath: 'наименование' })
   });
 };

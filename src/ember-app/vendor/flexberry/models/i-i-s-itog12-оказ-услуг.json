@@ -105,8 +105,8 @@
           "inverse": null
         },
         {
-          "lookupValue": "Услуги",
-          "lookupValueField": "услуги",
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
           "relationName": "Услуги",
           "belongsTo": [
             {

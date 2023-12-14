@@ -27,7 +27,7 @@ namespace IIS.Itog12
 
     // *** End programmer edit section *** (ЗатрВремя CustomAttributes)
     [AutoAltered()]
-    [Caption("ЗатраченноеВремя")]
+    [Caption("Затраченное время")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ЗатрВремяE", new string[] {
             "ЗатрВремя as \'Время\'"})]

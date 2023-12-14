@@ -37,7 +37,7 @@ namespace IIS.Itog12
             "Услуги as \'Наименование услуг\'",
             "Услуги.ЗатрВремя.ЗатрВремя as \'Затраченное время\'"})]
     [MasterViewDefineAttribute("ОказУслугE", "Договор", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
-    [MasterViewDefineAttribute("ОказУслугE", "Услуги", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Услуги")]
+    [MasterViewDefineAttribute("ОказУслугE", "Услуги", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Наименование")]
     public class ОказУслуг : ICSSoft.STORMNET.DataObject
     {
         

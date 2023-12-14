@@ -10,7 +10,7 @@
     },
     {
       "master": "услуги",
-      "displayAttributeName": "услуги",
+      "displayAttributeName": "наименование",
       "required": true,
       "relationName": "ОказУсл.Услуги",
       "projection": "УслугиL",

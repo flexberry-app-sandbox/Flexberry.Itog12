@@ -27,7 +27,7 @@ namespace IIS.Itog12
 
     // *** End programmer edit section *** (ДирОтдПоРабСКл CustomAttributes)
     [AutoAltered()]
-    [Caption("ДиректорОтделаПоРаботеСКлиентами")]
+    [Caption("Директор")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ДирОтдПоРабСКлE", new string[] {
             "idДиректора as \'Id директора\'",

@@ -79,11 +79,11 @@ export let defineProjections = function (modelClass) {
     статус: attr('Статус', { index: 2 }),
     тип: attr('Тип', { index: 3 }),
     стоимость: attr('Стоимость', { index: 5 }),
-    дирОтдПоРабСКл: belongsTo('i-i-s-itog12-дир-отд-по-раб-с-кл', 'Директор отдела по работе с клиентами', {
+    дирОтдПоРабСКл: belongsTo('i-i-s-itog12-дир-отд-по-раб-с-кл', 'Фамилия директора', {
       имя: attr('Имя', { index: 7 }),
       отчество: attr('Отчество', { index: 8 })
     }, { index: 6, displayMemberPath: 'фамилия' }),
-    клиент: belongsTo('i-i-s-itog12-клиент', 'Фамилия', {
+    клиент: belongsTo('i-i-s-itog12-клиент', 'Фамилия клиента', {
       имя: attr('Имя', { index: 10 }),
       отчество: attr('Отчество', { index: 11 })
     }, { index: 9, displayMemberPath: 'фамилия' }),

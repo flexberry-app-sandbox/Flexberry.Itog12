@@ -149,7 +149,7 @@
           ],
           "index": 6,
           "type": "standard",
-          "caption": "Директор отдела по работе с клиентами",
+          "caption": "Фамилия директора",
           "name": "дирОтдПоРабСКл",
           "relatedTo": "i-i-s-itog12-дир-отд-по-раб-с-кл",
           "inverse": null
@@ -176,7 +176,7 @@
           ],
           "index": 9,
           "type": "standard",
-          "caption": "Фамилия",
+          "caption": "Фамилия клиента",
           "name": "клиент",
           "relatedTo": "i-i-s-itog12-клиент",
           "inverse": null
