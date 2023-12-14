@@ -71,6 +71,49 @@
         {
           "lookupValue": null,
           "lookupValueField": null,
+          "relationName": "Договор",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Договор.Длительность",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "длительность",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "длительность",
+              "relatedTo": "i-i-s-itog12-длительность",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "default",
+          "caption": "",
+          "name": "договор",
+          "relatedTo": "i-i-s-itog12-договор",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
           "relationName": "Услуги",
           "belongsTo": [
             {
@@ -82,9 +125,9 @@
               "attrs": [
                 {
                   "name": "затрВремя",
-                  "caption": "Затраченное время",
+                  "caption": "",
                   "hidden": false,
-                  "index": 4
+                  "index": 7
                 }
               ],
               "index": -1,
@@ -99,14 +142,14 @@
           "attrs": [
             {
               "name": "наименование",
-              "caption": "Наименование",
+              "caption": "",
               "hidden": false,
-              "index": 3
+              "index": 6
             }
           ],
-          "index": 2,
+          "index": 5,
           "type": "default",
-          "caption": "Услуги",
+          "caption": "",
           "name": "услуги",
           "relatedTo": "i-i-s-itog12-услуги",
           "inverse": null
