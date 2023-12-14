@@ -50,18 +50,16 @@ export let defineProjections = function (modelClass) {
     оказУсл: hasMany('i-i-s-itog12-оказ-услуг', 'Оказанные услуги', {
       дата: attr('Дата', { index: 0 }),
       времяКонсульт: attr('Время консультаций', { index: 1 }),
-      договор: belongsTo('i-i-s-itog12-договор', '', {
-        номер: attr('', { index: 3 }),
+      договор: belongsTo('i-i-s-itog12-договор', 'Номер договора', {
         длительность: belongsTo('i-i-s-itog12-длительность', '', {
-          длительность: attr('', { index: 4 })
+          длительность: attr('Длительность', { index: 3 })
         }, { index: -1, hidden: true })
-      }, { index: 2 }),
-      услуги: belongsTo('i-i-s-itog12-услуги', '', {
-        наименование: attr('', { index: 6 }),
+      }, { index: 2, displayMemberPath: 'номер' }),
+      услуги: belongsTo('i-i-s-itog12-услуги', 'Наименование услуг', {
         затрВремя: belongsTo('i-i-s-itog12-затр-время', '', {
-          затрВремя: attr('', { index: 7 })
+          затрВремя: attr('Затраченное время', { index: 5 })
         }, { index: -1, hidden: true })
-      }, { index: 5 })
+      }, { index: 4, displayMemberPath: 'услуги' })
     })
   });
 

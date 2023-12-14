@@ -78,20 +78,18 @@ export let defineProjections = function (modelClass) {
     дата: attr('Дата', { index: 1 }),
     статус: attr('Статус', { index: 2 }),
     тип: attr('Тип', { index: 3 }),
-    длительность: belongsTo('i-i-s-itog12-длительность', 'Длительность', {
-      длительность: attr('Срок действия', { index: 5 })
-    }, { index: 4 }),
-    стоимость: attr('Стоимость', { index: 6 }),
+    стоимость: attr('Стоимость', { index: 5 }),
     дирОтдПоРабСКл: belongsTo('i-i-s-itog12-дир-отд-по-раб-с-кл', 'Директор отдела по работе с клиентами', {
-      фамилия: attr('Фамилия', { index: 8 }),
-      имя: attr('Имя', { index: 9 }),
-      отчество: attr('Отчество', { index: 10 })
-    }, { index: 7 }),
-    клиент: belongsTo('i-i-s-itog12-клиент', 'Клиент', {
-      фамилия: attr('Фамилия', { index: 12 }),
-      имя: attr('Имя', { index: 13 }),
-      отчество: attr('Отчество', { index: 14 })
-    }, { index: 11 })
+      имя: attr('Имя', { index: 7 }),
+      отчество: attr('Отчество', { index: 8 })
+    }, { index: 6, displayMemberPath: 'фамилия' }),
+    клиент: belongsTo('i-i-s-itog12-клиент', 'Фамилия', {
+      имя: attr('Имя', { index: 10 }),
+      отчество: attr('Отчество', { index: 11 })
+    }, { index: 9, displayMemberPath: 'фамилия' }),
+    длительность: belongsTo('i-i-s-itog12-длительность', 'Длительность', {
+
+    }, { index: 4, displayMemberPath: 'длительность' })
   });
 
   modelClass.defineProjection('ДоговорL', 'i-i-s-itog12-договор', {

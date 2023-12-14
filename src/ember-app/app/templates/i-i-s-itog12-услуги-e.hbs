@@ -40,6 +40,8 @@
       choose="showLookupDialog"
       remove="removeLookupValue"
       value=model.затрВремя
+      displayAttributeName="затраченное время"
+      autocomplete=true
       relationName="затрВремя"
       projection="ЗатрВремяL"
       title=(t "forms.i-i-s-itog12-услуги-e.затрВремя-caption")
@@ -49,15 +51,5 @@
       data-test-i-i-s-itog12-услуги-e-затрВремя=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "затрВремя" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=true
-      value=model.затрВремя.затрВремя
-      class=(if (v-get validationModel.затрВремя "затрВремя" "isInvalid") "error")
-      label=(t "forms.i-i-s-itog12-услуги-e.затрВремя.затрВремя-caption")
-      data-test-i-i-s-itog12-услуги-e-затрВремя-затрВремя=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel.затрВремя "затрВремя" "message")}}
   </div>
 </form>

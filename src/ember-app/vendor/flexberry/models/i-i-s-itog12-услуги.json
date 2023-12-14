@@ -68,21 +68,14 @@
       ],
       "belongsTo": [
         {
-          "lookupValue": null,
-          "lookupValueField": null,
+          "lookupValue": "Затраченное время",
+          "lookupValueField": "затраченное время",
           "relationName": "ЗатрВремя",
           "belongsTo": [],
           "hidden": false,
-          "attrs": [
-            {
-              "name": "затрВремя",
-              "caption": "Затраченное время",
-              "hidden": false,
-              "index": 2
-            }
-          ],
+          "attrs": [],
           "index": 1,
-          "type": "default",
+          "type": "standard",
           "caption": "Затраченное время",
           "name": "затрВремя",
           "relatedTo": "i-i-s-itog12-затр-время",

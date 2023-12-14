@@ -37,8 +37,8 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('УслугиE', 'i-i-s-itog12-услуги', {
     наименование: attr('Наименование', { index: 0 }),
     затрВремя: belongsTo('i-i-s-itog12-затр-время', 'Затраченное время', {
-      затрВремя: attr('Затраченное время', { index: 2 })
-    }, { index: 1 })
+
+    }, { index: 1, displayMemberPath: 'затраченное время' })
   });
 
   modelClass.defineProjection('УслугиL', 'i-i-s-itog12-услуги', {

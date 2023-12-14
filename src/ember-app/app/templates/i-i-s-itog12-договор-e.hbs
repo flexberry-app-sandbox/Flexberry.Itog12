@@ -71,6 +71,8 @@
       choose="showLookupDialog"
       remove="removeLookupValue"
       value=model.длительность
+      displayAttributeName="длительность"
+      autocomplete=true
       relationName="длительность"
       projection="ДлительностьL"
       title=(t "forms.i-i-s-itog12-договор-e.длительность-caption")
@@ -80,16 +82,6 @@
       data-test-i-i-s-itog12-договор-e-длительность=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "длительность" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=true
-      value=model.длительность.длительность
-      class=(if (v-get validationModel.длительность "длительность" "isInvalid") "error")
-      label=(t "forms.i-i-s-itog12-договор-e.длительность.длительность-caption")
-      data-test-i-i-s-itog12-договор-e-длительность-длительность=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel.длительность "длительность" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -107,6 +99,8 @@
       choose="showLookupDialog"
       remove="removeLookupValue"
       value=model.дирОтдПоРабСКл
+      displayAttributeName="фамилия"
+      autocomplete=true
       relationName="дирОтдПоРабСКл"
       projection="ДирОтдПоРабСКлL"
       title=(t "forms.i-i-s-itog12-договор-e.дирОтдПоРабСКл-caption")
@@ -116,16 +110,6 @@
       data-test-i-i-s-itog12-договор-e-дирОтдПоРабСКл=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "дирОтдПоРабСКл" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=true
-      value=model.дирОтдПоРабСКл.фамилия
-      class=(if (v-get validationModel.дирОтдПоРабСКл "фамилия" "isInvalid") "error")
-      label=(t "forms.i-i-s-itog12-договор-e.дирОтдПоРабСКл.фамилия-caption")
-      data-test-i-i-s-itog12-договор-e-дирОтдПоРабСКл-фамилия=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel.дирОтдПоРабСКл "фамилия" "message")}}
   </div>
   <div class="field">
     {{flexberry-field
@@ -153,6 +137,8 @@
       choose="showLookupDialog"
       remove="removeLookupValue"
       value=model.клиент
+      displayAttributeName="фамилия"
+      autocomplete=true
       relationName="клиент"
       projection="КлиентL"
       title=(t "forms.i-i-s-itog12-договор-e.клиент-caption")
@@ -162,16 +148,6 @@
       data-test-i-i-s-itog12-договор-e-клиент=true
     }}
     {{flexberry-validationmessage error=(v-get validationModel "клиент" "message")}}
-  </div>
-  <div class="field">
-    {{flexberry-field
-      readonly=true
-      value=model.клиент.фамилия
-      class=(if (v-get validationModel.клиент "фамилия" "isInvalid") "error")
-      label=(t "forms.i-i-s-itog12-договор-e.клиент.фамилия-caption")
-      data-test-i-i-s-itog12-договор-e-клиент-фамилия=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel.клиент "фамилия" "message")}}
   </div>
   <div class="field">
     {{flexberry-field

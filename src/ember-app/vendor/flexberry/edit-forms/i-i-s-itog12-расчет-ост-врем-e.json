@@ -2,7 +2,7 @@
   "propertyLookup": [
     {
       "master": "договор",
-      "displayAttributeName": null,
+      "displayAttributeName": "номер",
       "required": true,
       "relationName": "ОказУсл.Договор",
       "projection": "ДоговорL",
@@ -10,7 +10,7 @@
     },
     {
       "master": "услуги",
-      "displayAttributeName": null,
+      "displayAttributeName": "услуги",
       "required": true,
       "relationName": "ОказУсл.Услуги",
       "projection": "УслугиL",
