@@ -7,18 +7,6 @@ export default EditFormController.extend({
     let cellComponent = this._super(...arguments);
     if (attr.kind === 'belongsTo') {
       switch (`${model.modelName}+${bindingPath}`) {
-        case 'i-i-s-itog12-оказ-услуг+договор':
-          cellComponent.componentProperties = {
-            choose: 'showLookupDialog',
-            remove: 'removeLookupValue',
-            displayAttributeName: '',
-            required: true,
-            relationName: 'договор',
-            projection: 'ДоговорL',
-            autocomplete: true,
-          };
-          break;
-
         case 'i-i-s-itog12-оказ-услуг+услуги':
           cellComponent.componentProperties = {
             choose: 'showLookupDialog',

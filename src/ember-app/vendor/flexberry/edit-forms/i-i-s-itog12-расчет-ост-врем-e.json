@@ -1,14 +1,6 @@
 ﻿{
   "propertyLookup": [
     {
-      "master": "договор",
-      "displayAttributeName": null,
-      "required": true,
-      "relationName": "ОказУсл.Договор",
-      "projection": "ДоговорL",
-      "detailModelName": "i-i-s-itog12-оказ-услуг"
-    },
-    {
       "master": "услуги",
       "displayAttributeName": null,
       "required": true,
