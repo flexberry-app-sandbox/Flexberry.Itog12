@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-itog12-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-itog12-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-itog12-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'chart bar',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-itog12-клиент-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-itog12-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-itog12-клиент-l.title'),
-            icon: 'briefcase',
+            icon: 'phone',
             children: null
           }]
         }, {
@@ -46,13 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-itog12-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-itog12-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-itog12-расчет-ост-врем-l.title'),
-            icon: 'folder',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-itog12-договор-l',
             caption: i18n.t('forms.application.sitemap.документы.i-i-s-itog12-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.документы.i-i-s-itog12-договор-l.title'),
-            icon: 'book',
+            icon: 'phone',
             children: null
           }]
         }, {
@@ -64,19 +64,18 @@ export default Controller.extend({
             link: 'i-i-s-itog12-затр-время-l',
             caption: i18n.t('forms.application.sitemap.прочее.i-i-s-itog12-затр-время-l.caption'),
             title: i18n.t('forms.application.sitemap.прочее.i-i-s-itog12-затр-время-l.title'),
-            icon: 'list',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-itog12-длительность-l',
             caption: i18n.t('forms.application.sitemap.прочее.i-i-s-itog12-длительность-l.caption'),
             title: i18n.t('forms.application.sitemap.прочее.i-i-s-itog12-длительность-l.title'),
-            icon: 'folder',
+            icon: 'list',
             children: null
           }, {
             link: 'i-i-s-itog12-услуги-l',
             caption: i18n.t('forms.application.sitemap.прочее.i-i-s-itog12-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.прочее.i-i-s-itog12-услуги-l.title'),
-            icon: 'chart line',
             children: null
           }]
         }

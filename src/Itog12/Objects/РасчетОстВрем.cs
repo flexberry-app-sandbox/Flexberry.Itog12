@@ -190,7 +190,6 @@ namespace IIS.Itog12
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (РасчетОстВрем.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (РасчетОстВрем.Отправить method implementation)
         }

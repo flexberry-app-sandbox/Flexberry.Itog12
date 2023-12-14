@@ -79,12 +79,12 @@
               "name": "номер",
               "caption": "Номер договора",
               "hidden": false,
-              "index": 3
+              "index": 2
             }
           ],
-          "index": 2,
+          "index": -1,
           "type": "default",
-          "caption": "Договор",
+          "caption": "Номер договора",
           "name": "договор",
           "relatedTo": "i-i-s-itog12-договор",
           "inverse": null
@@ -105,7 +105,7 @@
                   "name": "затрВремя",
                   "caption": "Затраченное время",
                   "hidden": false,
-                  "index": 6
+                  "index": 4
                 }
               ],
               "index": -1,
@@ -122,12 +122,12 @@
               "name": "наименование",
               "caption": "Наименование услуг",
               "hidden": false,
-              "index": 5
+              "index": 3
             }
           ],
-          "index": 4,
+          "index": -1,
           "type": "default",
-          "caption": "Услуги",
+          "caption": "Наименование услуг",
           "name": "услуги",
           "relatedTo": "i-i-s-itog12-услуги",
           "inverse": null

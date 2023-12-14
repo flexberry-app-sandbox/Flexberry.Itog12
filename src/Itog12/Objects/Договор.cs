@@ -341,7 +341,6 @@ namespace IIS.Itog12
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (Договор.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (Договор.Отправить method implementation)
         }
