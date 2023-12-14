@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-itog12-дир-отд-по-раб-с-кл-e",
+  "editForm": "i-i-s-itog12-дир-отд-по-раб-с-кл-e",
+  "external": false,
+  "caption": "Дир отд по раб с кл",
+  "name": "IISItog12ДирОтдПоРабСКлL",
+  "className": "ДирОтдПоРабСКлL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itog12-дир-отд-по-раб-с-кл",
+      "modelProjection": "ДирОтдПоРабСКлL"
+    }
+  ]
+}

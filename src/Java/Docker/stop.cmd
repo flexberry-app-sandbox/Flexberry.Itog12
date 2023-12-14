@@ -1,0 +1,1 @@
+docker-compose -p itog12-java down

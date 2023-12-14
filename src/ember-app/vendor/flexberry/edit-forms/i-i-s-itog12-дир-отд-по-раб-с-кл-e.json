@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Дир отд по раб с кл",
+  "name": "IISItog12ДирОтдПоРабСКлE",
+  "className": "ДирОтдПоРабСКлE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-itog12-дир-отд-по-раб-с-кл",
+      "modelProjection": "ДирОтдПоРабСКлE"
+    }
+  ]
+}

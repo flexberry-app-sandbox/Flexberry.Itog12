@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISItog12Длительность",
+  "modelName": "i-i-s-itog12-длительность",
+  "className": "Длительность",
+  "nameSpace": "IIS.Itog12",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "длительность",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ДлительностьE",
+      "modelName": "i-i-s-itog12-длительность",
+      "attrs": [
+        {
+          "name": "длительность",
+          "caption": "Длительность",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ДлительностьL",
+      "modelName": "i-i-s-itog12-длительность",
+      "attrs": [
+        {
+          "name": "длительность",
+          "caption": "Длительность",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
